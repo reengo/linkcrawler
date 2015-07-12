@@ -1,11 +1,11 @@
 <?php 
-$con = mysql_connect("localhost","kolokoic_linker","Jennifer323");
+$con = mysql_connect("localhost","rbdbuser","p%xcPZE{]%\At2Zv");
 	if (!$con)
 	  {
 	  die('Could not connect: ' . mysql_error());
 	  }
 	
-	mysql_select_db("kolokoic_linktracker", $con);			
+	mysql_select_db("rbdbname", $con);			
 	
 	$result = mysql_query("SELECT distinct userid FROM users");
 	
